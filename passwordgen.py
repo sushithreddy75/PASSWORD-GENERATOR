@@ -28,8 +28,7 @@ else:
    x=r.choice(s.ascii_letters)
    p.append(x)
  print('\nGENERATED PASSWORD:"',end='')
- passw=set(p)
- for i in passw:
+ r.shuffle(p)
+ for i in p:
    print(i,end='')
 print('"\n')
-
