@@ -18,10 +18,10 @@ else:
    x=r.choice(s.ascii_uppercase)
    p.append(x)
  for i in range(n):
-   x=r.randint(0,10)
+   x=r.randint(0,9)
    p.append(x)
  for i in range(c):
-   x=r.randint(0,len(char))
+   x=r.randint(0,len(char)-1)
    y=char[x]
    p.append(y)
  for i in range(a):
